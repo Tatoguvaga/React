@@ -15,6 +15,8 @@ console.log (letters + numbers);
 
 //Tarea
 
+//https://gist.github.com/Klerith/6db6ce73a652e3a5639673adc9be7895
+
 const useState = (value:string) => {
     return [value, (newValue:string) => {
         console.log(newValue);
