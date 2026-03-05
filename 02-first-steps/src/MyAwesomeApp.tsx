@@ -1,25 +1,25 @@
 import type { CSSProperties } from "react";
 
+
+const firstName = 'Gustavo';
+const lastName = 'Varelas';
+
+const favoriteGames = ['Elden Ring', 'Smash', 'Metal Gear'];
+const isActive = false;
+
+const address = {
+    zipCode: 'ABC-123',
+    country: 'España',
+};
+
+const myStyles: CSSProperties = {
+    backgroundColor: '#fafafa',
+    borderRadius: 10,
+    padding: 10,
+    marginTop: 30,
+}
+
 export const MyAwesomeApp = () => {
-
-    const firstName = 'Gustavo';
-    const lastName = 'Varelas';
-
-    const favoriteGames = ['Elden Ring', 'Smash', 'Metal Gear'];
-    const isActive = false;
-
-    const address = {
-        zipCode: 'ABC-123',
-        country: 'España',
-    };
-
-    const myStyles: CSSProperties = {
-        backgroundColor: '#fafafa',
-        borderRadius: 10,
-        padding: 10,
-        marginTop: 20,
-    }
-
     return (
         <>
             <h1>{firstName}</h1>
