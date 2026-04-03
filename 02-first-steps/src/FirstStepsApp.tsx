@@ -19,11 +19,9 @@ export function FirstStepsApp() {
         <>
             <h1>Carrito de Compras</h1>
 
-            {
-                itemsInCart.map( ({ productName, quantity }) => ( /* Se aplica desectruturacion, recomendado para 3 elementos, por que si son mas, hace mas complicado de leer*/
-                    <ItemCounter key={productName} name={productName} quantity={quantity} />
-                ) )  
-            }
+            {itemsInCart.map( ({ productName, quantity }) => ( /* Se aplica desectruturacion, recomendado para 3 elementos, por que si son mas, hace mas complicado de leer*/
+                <ItemCounter key={productName} name={productName} quantity={quantity} />
+            ))}
             
             {/* <ItemCounter name="Nintendo Switch 2" quantity={1} />
             <ItemCounter name="Pro Controller" quantity={2}/>
